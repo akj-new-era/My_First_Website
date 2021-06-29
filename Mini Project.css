@@ -1,0 +1,381 @@
+nav {
+  border-top-width: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  height: 60px;    
+}      
+
+.navbar-brand{
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.651);    }
+
+li a{
+  font-size: 12px; }
+
+nav a{
+    color: black;   }
+
+nav li a:hover{
+    color: blue;   }
+
+.colors{
+    font-size: small;  }
+
+header h1 {
+    font-size: 60px;
+}
+
+.color{
+    color: grey;
+    font-size: 1.1em;
+}
+
+#myModal{
+  top: 10%;
+  border-radius: 0%;
+}
+
+.modal{
+  position:absolute;
+  right: 0;
+  left: 1000px;
+}
+
+.background{
+    background-image: url("IITSSP\ Mini-Project/Img/4.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    padding-top: 10em;
+    padding-bottom: 5em;   
+    color: white;
+}
+
+
+#background{
+    padding-top: 20em;
+    padding-bottom: 20em;
+    background-image: url("IITSSP\ Mini-Project/Img/1 (1.1).jpg") ;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.btn{
+    background-color: #745cf9;
+}
+
+#back{
+    background-image: url("IITSSP\ Mini-Project/Img/14.jpg");    
+     width:"100%";
+     height:"467";   
+ }
+ 
+
+.container1 {
+    position: relative;
+  }
+  
+  .image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container1:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container1:hover .middle1 {
+    opacity: 1;
+  }
+  
+  .text {
+    
+    color: white;
+    font-size: 25px;
+    padding: 16px 32px;}
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+      }
+      
+      /* Create four equal columns that sits next to each other */
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      /* Responsive layout - makes a two column-layout instead of four columns */
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+
+.background1{
+        background-image: url("IITSSP\ Mini-Project/Img/14.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 5em;
+        color: white;
+        height: 500px;
+}
+
+
+.col-md-2>a:hover{
+      color: white;
+      cursor: pointer;
+    }
+
+.carousel {
+  background: #FAFAFA;
+ 
+}
+
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell1 {
+  width: 25%;
+  height: 200px;
+  background-image: url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/colorlib-logo.png');
+  content: counter(gallery-cell);
+  width: 15%;
+  background-size: 200px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell1:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell2 {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/js-logo.png');
+  content: counter(gallery-cell);
+  width: 15%;
+  background-size: 200px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell2:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell3{
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/html5-logo.png');
+  content: counter(gallery-cell);
+  width: 15%;
+  background-size: 200px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell3:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell4{
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/css-logo.png');
+  content: counter(gallery-cell);
+  width: 15%;
+  background-size: 200px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell4:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell5{
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/less-logo.png');
+  content: counter(gallery-cell);
+  width: 15%;
+  background-size: 200px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell5:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell6{
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/sass-logo.png');
+  width: 15%;
+  background-size: 200px;
+  content: counter(gallery-cell);
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell6:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell7{
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/bootstrap-logo.jpg');
+  content: counter(gallery-cell);
+  width: 15%;
+  background-size: 200px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell7:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell8{
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/adobe-logo.png');
+  content: counter(gallery-cell);
+  width: 15%;
+  background-size: 200px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell8:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+.carousel-cell9{
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url('https://demo.colorlib.com/wp-content/uploads/sites/59/2016/03/facebook-logo.png');
+  content: counter(gallery-cell);
+  width: 15%;
+  background-size: 200px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.carousel-cell9:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+
+footer{
+      background-color: rgba(0, 0, 0, 0.938);
+      color: rgba(88, 51, 51, 0.781);
+      padding: 5em;
+  }
+
+.box{
+    color: white;
+    /* background-color: rgb(51, 40, 204);
+    padding: 1em; */
+    text-decoration: none;
+   }
+
+.box:hover{
+  color: white;
+  text-decoration: none;
+}
+
+footer i:hover{
+  color: blue;
+}
